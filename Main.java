@@ -14,7 +14,7 @@ public class Main {
             System.out.println("5. Sair");
             System.out.print("Escolha uma opção: ");
             int opcao = scanner.nextInt();
-            scanner.nextLine();  // Consome a nova linha
+            scanner.nextLine();  
 
             switch (opcao) {
                 case 1:
@@ -22,7 +22,7 @@ public class Main {
                     String tipo = scanner.nextLine();
                     System.out.print("Digite a quantidade: ");
                     int quantidade = scanner.nextInt();
-                    scanner.nextLine();  // Consome a nova linha
+                    scanner.nextLine();  
                     System.out.print("Digite os detalhes: ");
                     String detalhes = scanner.nextLine();
                     Doacao doacao = new Doacao(tipo, quantidade, detalhes);
