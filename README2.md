@@ -16,8 +16,8 @@ Este projeto é um sistema de gerenciamento de doações, desenvolvido como part
   - `SistemaGerenciamentoDoacoes.java`: Define a classe `SistemaGerenciamentoDoacoes` para gerenciar as doações.
   - `Main.java`: Contém o método principal para executar o sistema.
  
-  - Uso do Sistema
-    
+Uso do Sistema
+
 Adicionar Doação:
 
 Escolha a opção 1 no menu.
